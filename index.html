@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drou</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+  <!-- start header -->
+  <header id="header" class="header bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Image/logo_300x300.png" alt="logo" />
+          </a>
+          <button class="navbar-toggler order-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item position-relative">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="electronic.html">Electronics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <a href="cart.html">
+              <i class="fa-solid fa-bag-shopping position-relative">
+                <span id="soppingCount" class="count">0</span>
+              </i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+
+  <main>
+    <!-- start home -->
+    <section id="home" class="home">
+      <div id="carouselExampleIndicators" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div id="slide1" class="slide position-relative">
+              <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                  <div class="col-lg-6 col-md-6 col-12 col-sm-6">
+                    <div class="home-caption">
+                      <h4 class="text-uppercase">SALE UP TO 30% OFF</h4>
+                      <h1 class="text-capitalize">Apple Watch Series</h1>
+                      <p>
+                        Feature packed at a better value than ever Powerful
+                        sensors to monitor your fitness
+                      </p>
+                      <a href="electronic.html" class="btn btn-1">
+                        shop now
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slide2" class="slide2 position-relative">
+              <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                  <div class="col-lg-6 col-md-6 col-12 col-sm-6">
+                    <div class="home-caption">
+                      <h4 class="text-uppercase">New arrivals collection</h4>
+                      <h1 class="text-capitalize">iPhone Accessories</h1>
+                      <p>
+                        Snap on a case, wallet, wireless charger battery pack
+                        all accessories you’re looking
+                      </p>
+                      <a href="electronic.html" class="btn btn-1">
+                        shop now
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="btnSlide active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            class="btnSlide"></button>
+        </div>
+      </div>
+    </section>
+    <!-- end home -->
+
+    <!-- start trend -->
+    <section class="trend p-100">
+      <div class="container">
+        <div class="trend__title title-1 mb-40">
+          <h2>Trending Categories</h2>
+        </div>
+        <div class="trend__info">
+          <div class="cards pb-70">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/p7_300x300.jpg" alt="iphone" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">iphone</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-sm-block d-none">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/11_300x300.jpg" alt="mini speakers" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">mini speakers</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-md-block d-none">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/9_300x300.jpg" alt="tablets" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">iphone</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-lg-block d-none">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/12_300x300.jpg" alt="headphone" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">headphone</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-xl-block d-none">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/10_300x300.jpg" alt="laptop" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">laptop</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-xxl-block d-none">
+                <div class="card">
+                  <div class="card-img overflow-hidden">
+                    <a href="electronic.html"><img src="Image/p4_300x300.jpg" alt="accessories" /></a>
+                  </div>
+                  <div class="card-caption">
+                    <h3 class="text-capitalize">accessories</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="row gy-4">
+              <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+                <div class="box position-relative pe-1">
+                  <div class="box-img overflow-hidden">
+                    <a href="product.html"><img src="Image/sub-banner-1.jpg" alt="sub-banner-1" /></a>
+                  </div>
+                  <div class="box-layer">
+                    <span class="text-uppercase">Security Smart Camera</span>
+                    <h2 class="text-capitalize">Just Starting At $850</h2>
+                    <a href="electronic.html" class="btn btn-1">shop now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+                <div class="box position-relative ps-1">
+                  <div class="box-img overflow-hidden">
+                    <a href="product.html"><img src="Image/sub-banner-2.jpg" alt="sub-banner-2" /></a>
+                  </div>
+                  <div class="box-layer">
+                    <span class="text-uppercase">Entertainment & Games</span>
+                    <h2 class="text-capitalize">
+                      Just Starting at $850 Hurry up!
+                    </h2>
+                    <a href="electronic.html" class="btn btn-1">shop now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end trend -->
+
+    <!-- start latest -->
+    <section class="latest p-100">
+      <div class="container">
+        <div class="latest__title title-1 title-2 mb-35">
+          <h2>Latest Products</h2>
+          <div>
+            <a href="electronic.html">
+              View all products
+              <i class="fa-solid fa-arrow-right ps-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="latest__info">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/13_large.jpg" alt="watch" />
+                    <img id="hoverImg" src="Image/p4_b019dfc8-3740-44ac-8916-6db66a336feb_large.jpg" alt="airbods" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Drou watch ultra</h4>
+                  <p>$70.00<span> $85.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-sm-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p2_ea1ad2a2-ba0d-4dd2-b29a-e51fd931583b_large.jpg" alt="drobook" />
+                    <img id="hoverImg" src="Image/p1_c084b79e-4c5b-4790-a7fe-00b1eb18b040_large.jpg" alt="tablet" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Droubook space gray</h4>
+                  <p>$80.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-lg-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/11_c6c97b67-edac-48bd-8e5c-cf0de5e9e3cb_large.jpg"
+                      alt="mini speaker" />
+                    <img id="hoverImg" src="Image/p3_0dd10fdb-44b3-415b-b7c3-91896ecb3ee2_large.jpg" alt="y=tablet" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Homepod mini 2022</h4>
+                  <p>$39.00<span> $60.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-xl-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p10_large.jpg" alt="iphone" />
+                    <img id="hoverImg" src="Image/p5_020e3c58-9f57-4388-b8d8-bb40db3b4c5e_large.jpg" alt="chrger" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>DroSafe charger</h4>
+                  <p>$55.00<span> $75.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-xxl-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p9_large.jpg" alt="tv" />
+                    <img id="hoverImg" src="Image/p7_6fe3391a-c2d0-4342-bd4c-70b486ce88ae_large.jpg" alt="iphone" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Home entertainment</h4>
+                  <p>$79.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end latest -->
+
+    <!-- start dicount -->
+    <section class="discount p-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="discount__info text-center">
+              <h5>Hurry Up !</h5>
+              <h4>Up To 25% Discount</h4>
+              <h6>Check it Out</h6>
+              <div class="cards d-flex align-items-center flex-wrap justify-content-center">
+                <div class="box">
+                  <div class="card d-flex justify-content-center flex-column">
+                    <span>54</span>
+                    <span class="text-uppercase">days</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="card d-flex justify-content-center flex-column">
+                    <span>20</span>
+                    <span class="text-uppercase">hrs</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="card d-flex justify-content-center flex-column">
+                    <span>37</span>
+                    <span class="text-uppercase">mins</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="card d-flex justify-content-center flex-column">
+                    <span>50</span>
+                    <span class="text-uppercase">sec</span>
+                  </div>
+                </div>
+              </div>
+              <a href="electronic.html" class="link text-capitalize">shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end dicount -->
+
+    <!-- start popular -->
+    <section class="popular latest pt-55">
+      <div class="container">
+        <div class="popular__title title-1 title-2 mb-35">
+          <h2>Popular Products</h2>
+          <ul class="d-flex">
+            <li class="active"><a href="#">Accessories</a></li>
+            <li><a href="#">Ipone</a></li>
+            <li><a href="#">Laptop</a></li>
+          </ul>
+        </div>
+        <div class="latest__info">
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p10_large.jpg" alt="iphone" />
+                    <img id="hoverImg" src="Image/p5_020e3c58-9f57-4388-b8d8-bb40db3b4c5e_large.jpg" alt="chrger" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>DroSafe charger</h4>
+                  <p>$55.00<span> $75.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/13_large.jpg" alt="watch" />
+                    <img id="hoverImg" src="Image/p4_b019dfc8-3740-44ac-8916-6db66a336feb_large.jpg" alt="airbods" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Drou watch ultra</h4>
+                  <p>70.00<span> $85.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/12_300x300.jpg" alt="watch" />
+                    <img id="hoverImg" src="Image/p10_large.jpg" alt="airbods" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>DrouPods max</h4>
+                  <p>$70.00<span> $85.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p8_523c97c7-2aa2-47e8-8b17-5a3c05a66db3_large.jpg" alt="iphone" />
+                    <img id="hoverImg" src="Image/p7_36d931d4-1ef2-4c82-9a65-80426fb77f21_large.jpg" alt="iphone" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Iphone 14 pro max</h4>
+                  <p>$999.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p7_large.jpg" alt="iphone" />
+                    <img id="hoverImg" src="Image/p6_large.jpg" alt="iphone" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Iphone 13 white color</h4>
+                  <p>$110.00<span> $130.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p1_large.jpg" alt="drobook" />
+                    <img id="hoverImg" src="Image/p2_large.jpg" alt="tablet" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>UPad Pro black color</h4>
+                  <p>$499.00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 d-lg-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/11_c6c97b67-edac-48bd-8e5c-cf0de5e9e3cb_large.jpg"
+                      alt="mini speaker" />
+                    <img id="hoverImg" src="Image/p3_0dd10fdb-44b3-415b-b7c3-91896ecb3ee2_large.jpg" alt="y=tablet" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Homepod mini 2022</h4>
+                  <p>$39.00<span> $60.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-lg-block d-none">
+              <div class="card">
+                <div class="overlay position-absolute z-1">
+                  <ul class="d-flex justify-content-center align-items-center">
+                    <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-signal"></i></li>
+                  </ul>
+                </div>
+                <div class="card-img">
+                  <a href="product.html">
+                    <img id="mainImg" src="Image/p9_large.jpg" alt="tv" />
+                    <img id="hoverImg" src="Image/p7_6fe3391a-c2d0-4342-bd4c-70b486ce88ae_large.jpg" alt="iphone" />
+                  </a>
+                </div>
+                <div class="card-caption">
+                  <div class="rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>Home entertainment</h4>
+                  <p>$79.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end popular -->
+
+    <!-- start event -->
+    <section class="event pb-70">
+      <div class="container">
+        <div class="event__title title-1 title-2 mb-35">
+          <h2>blog & Evets</h2>
+          <div>
+            <a href="#">
+              View all products
+              <i class="fa-solid fa-arrow-right ps-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="event__info">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="card">
+                <div class="card-img overflow-hidden">
+                  <img class="scl-img" src="Image/04_684500ea-e527-4171-8e1a-07c34d71c243_grande.jpg" alt="pone" />
+                </div>
+                <div class="card-caption">
+                  <ul class="date mt-4 d-flex">
+                    <li><i class="fa-regular fa-calendar"></i></li>
+                    <li class="ps-3">January 21, 2023</li>
+                  </ul>
+                  <h3>
+                    <a href="#">Music magnate headphones</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 d-sm-block d-none">
+              <div class="card">
+                <div class="card-img overflow-hidden">
+                  <img class="scl-img" src="Image/b1_a4c8283b-edba-463f-bcb7-d2cf8f3ce46f_grande.jpg"
+                    alt="MacBook Air  labore et dolore" />
+                </div>
+                <div class="card-caption">
+                  <ul class="date mt-4 d-flex">
+                    <li><i class="fa-regular fa-calendar"></i></li>
+                    <li class="ps-3">January 21, 2023</li>
+                  </ul>
+                  <h3>
+                    <a href="#">MacBook Air labore et dolore</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-lg-block d-none">
+              <div class="card">
+                <div class="card-img overflow-hidden">
+                  <img class="scl-img" src="Image/b2_74c4b7c0-e805-4704-a4ab-4e68c8e4eae2_grande.jpg" alt="pone" />
+                </div>
+                <div class="card-caption">
+                  <ul class="date mt-4 d-flex">
+                    <li><i class="fa-regular fa-calendar"></i></li>
+                    <li class="ps-3">January 21, 2023</li>
+                  </ul>
+                  <h3>
+                    <a href="#">Ipsum available but the majority</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end event -->
+
+    <!-- start banner -->
+    <section class="banner pb-70">
+      <div class="container">
+        <div class="banner__info position-relative">
+          <div class="banner-img overflow-hidden">
+            <a href="#"><img class="scl-img" src="Image/slide61.jpg" alt="slide" /></a>
+          </div>
+          <div class="banner-caption text-center">
+            <span>Big Discount</span>
+            <h3>Google Pixel Smart Phone</h3>
+            <h4>$350.00</h4>
+            <a href="#" class="btn btn-1">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- start feature  -->
+    <section class="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="box">
+              <div class="box-img">
+                <img src="Image/i2-2_medium_e2b39cba-8c39-4a2d-81c7-8e8688d8c9b5.png" alt="squre" />
+              </div>
+              <div class="box-caption">
+                <h4>Free delivery</h4>
+                <p>And free returns. See checkout for delivery dates.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="box">
+              <div class="box-img">
+                <img src="Image/i2_medium_ded55818-afbc-49a9-816a-72379db6213c.png" alt="dollar" />
+              </div>
+              <div class="box-caption">
+                <h4>Pay monthly at 0% APR</h4>
+                <p>
+                  Choose to check out with Apple Card Monthly Installments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="box">
+              <div class="box-img">
+                <img src="Image/gmm_medium_9c0bfab9-b0f5-46ba-ae91-e04fe3803037.png" alt="shape" />
+              </div>
+              <div class="box-caption">
+                <h4>Personalize it</h4>
+                <p>Engrave your device with your name or a personal note</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end feature  -->
+
+    <!-- fixed button -->
+    <button id="btnUp" class="btn btn-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </main>
+
+  <!-- start footer -->
+  <footer class="footer pt-70">
+    <div class="container">
+      <div class="footer__info pb-30">
+        <div class="row gy-sm-0 gy-5">
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <h5 class="footer-title">Contact us</h5>
+              <ul>
+                <li>
+                  Drou Demo Store
+                  <br />
+                  No. 1259 Freedom, New York
+                  <br />
+                  United States
+                </li>
+                <li>+91-987654321</li>
+                <li>demo@exampledemo.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <div class="footer-box">
+              <h5 class="footer-title">Information</h5>
+              <ul>
+                <li><a href="#">Product Support</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">License Policy</a></li>
+                <li><a href="#">Affiliate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <h5 class="footer-title">Customer Service</h5>
+              <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Redeem Voucher</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Policies & Rules</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-box">
+              <h5 class="footer-title">Download Our App</h5>
+              <p>
+                Download our App and get extra 15% Discount on your first
+                Order..!
+              </p>
+              <div class="store d-flex">
+                <div class="store-img">
+                  <a href="#"><img src="Image/app-store.jpg" alt="app-store" /></a>
+                </div>
+                <div class="store-img">
+                  <a href="#"><img src="Image/google-play.jpg" alt="google-play" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyRight">
+      <div class="container">
+        <div class="caption d-flex flex-wrap justify-content-between">
+          <p>Copyright © Team90Degree | Built with Drou by Team90Degree.</p>
+          <div class="copy-img">
+            <a href="#"><img src="Image/payment-method.png" alt="payment-method" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- JS -->
+  <script src="Js/jquery-3.7.1.min.js"></script>
+  <script src="Js/bootstrap.bundle.min.js"></script>
+  <script src="Js/index.js"></script>
+</body>
+
+</html>

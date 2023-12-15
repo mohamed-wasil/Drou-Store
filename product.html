@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drou - Product</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+
+<body>
+    <!-- start header -->
+    <header id="header" class="header bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Image/logo_300x300.png" alt="logo" />
+                    </a>
+                    <button class="navbar-toggler order-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item position-relative">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="electronic.html">Electronics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages.html">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <a href="cart.html">
+                            <i class="fa-solid fa-bag-shopping position-relative">
+                                <span id="soppingCount" class="count">0</span>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <main>
+        <!-- start banners -->
+        <section class="banners">
+            <div class="container">
+                <ul>
+                    <li class="position-relative">
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="pages.html">products</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end banners -->
+
+        <!-- start product  -->
+        <section class="product pb-30 pt-55">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="product-img">
+                            <img src="Image/p2_large.jpg" alt="product" />
+                        </div>
+                        <div class="imgs d-flex">
+                            <div class="product-imgs pe-3 active">
+                                <div class="img active">
+                                    <img src="Image/p2_large.jpg" alt="product" />
+                                </div>
+                            </div>
+                            <div class="product-imgs pe-3">
+                                <div class="img">
+                                    <img src="Image/p1_c084b79e-4c5b-4790-a7fe-00b1eb18b040_large.jpg" alt="product" />
+                                </div>
+                            </div>
+                            <div class="product-imgs d-md-block d-none">
+                                <div class="img">
+                                    <img src="Image/p3_0dd10fdb-44b3-415b-b7c3-91896ecb3ee2_large.jpg" alt="product" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="product__info pt-lg-0 pt-4">
+                            <div class="title-1 product-title mb-35">
+                                <h2>Latest Products</h2>
+                            </div>
+                            <div class="inventory">
+                                <span>Availability:</span>
+                                <span>5 left in stock</span>
+                            </div>
+                            <div class="invent-bar"></div>
+                            <ul class="sail-ico">
+                                <li>
+                                    <span>SKU : </span>
+                                    <span class="sku">202</span>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                                <li>No reviews</li>
+                            </ul>
+                            <p class="price">$1,280.00</p>
+                            <p class="product-caption">
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                laboriosam,
+                                nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+                                ea
+                                voluptate velit esse quam nihil molestiae consequatur.
+                            </p>
+                            <div class="size d-flex">
+                                <span>Size : </span>
+                                <ul class="d-flex">
+                                    <li class="active">s</li>
+                                    <li>m</li>
+                                    <li>l</li>
+                                </ul>
+                            </div>
+                            <div class="color pt-3 d-flex">
+                                <span>Color : </span>
+                                <ul class="d-flex">
+                                    <li></li>
+                                    <li class="active position-relative"></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="services pb-30 mt-10">
+                                <ul class="d-flex flex-wrap">
+                                    <li class="d-flex">
+                                        <i class="fa-solid fa-pen-ruler pe-3"></i>
+                                        Size Guide
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa-solid fa-truck-front pe-3"></i>
+                                        Shipping
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa-regular fa-envelope pe-3"></i>
+                                        Ask About This Prouct
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="btns w-75">
+                                <div class="cart d-flex align-items-center">
+                                    <button onclick="addCount()" class="btn btn-1">Add To Cart</button>
+                                    <span class="icon-heart"><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                                <button class="btn btn-1">Buy It Now</button>
+                            </div>
+                            <p class="text"> Guaranteed safe checkout </p>
+                            <div class="payment d-flex  flex-wrap">
+                                <a href="#">
+                                    <img src="Image/amazon-92e856f82cae5a564cd0f70457f11af4d58fa037cf6e5ab7adf76f6fd3b9cafe.svg"
+                                        alt="amzon">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg"
+                                        alt="american_express">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/apple_pay-f6db0077dc7c325b436ecbdcf254239100b35b70b1663bc7523d7c424901fa09.svg"
+                                        alt="app-store">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/bitcoin-e41278677541fc32b8d2e7fa41e61aaab2935151a6048a1d8d341162f5b93a0a.svg"
+                                        alt="bitcoin">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/dankort-a92b320b417b7c123265e1e4fe134935ac76ec7e297be9b02a5ef76b182a29cc.svg"
+                                        alt="danKort">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/google_pay-c66a29c63facf2053bf69352982c958e9675cabea4f2f7ccec08d169d1856b31.svg"
+                                        alt="oogle-pay">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/paypal-49e4c1e03244b6d2de0d270ca0d22dd15da6e92cc7266e93eb43762df5aa355d.svg"
+                                        alt="paypal">
+                                </a>
+                                <a href="#">
+                                    <img src="Image/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg"
+                                        alt="visa">
+                                </a>
+                            </div>
+                            <div class="social d-flex mt-5">
+                                Share :
+                                <ul class="d-flex">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f ps-3"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- end product  -->
+
+        <!-- start latest -->
+        <section class="latest">
+            <div class="container">
+                <div class="latest__title title-1 title-2 mb-35">
+                    <h2>custom Products</h2>
+                    <div>
+                        <a href="electronic.html">
+                            View all products
+                            <i class="fa-solid fa-arrow-right ps-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="latest__info">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/p10_large.jpg" alt="iphone" />
+                                        <img id="hoverImg" src="Image/p5_020e3c58-9f57-4388-b8d8-bb40db3b4c5e_large.jpg"
+                                            alt="chrger" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>DroSafe charger</h4>
+                                    <p>$55.00<span> $75.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/13_large.jpg" alt="watch" />
+                                        <img id="hoverImg" src="Image/p4_b019dfc8-3740-44ac-8916-6db66a336feb_large.jpg"
+                                            alt="airbods" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Drou watch ultra</h4>
+                                    <p>70.00<span> $85.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/12_300x300.jpg" alt="watch" />
+                                        <img id="hoverImg" src="Image/p10_large.jpg" alt="airbods" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>DrouPods max</h4>
+                                    <p>$70.00<span> $85.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/p8_523c97c7-2aa2-47e8-8b17-5a3c05a66db3_large.jpg"
+                                            alt="iphone" />
+                                        <img id="hoverImg" src="Image/p7_36d931d4-1ef2-4c82-9a65-80426fb77f21_large.jpg"
+                                            alt="iphone" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Iphone 14 pro max</h4>
+                                    <p>$999.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/p7_large.jpg" alt="iphone" />
+                                        <img id="hoverImg" src="Image/p6_large.jpg" alt="iphone" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Iphone 13 white color</h4>
+                                    <p>$110.00<span> $130.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/p1_large.jpg" alt="drobook" />
+                                        <img id="hoverImg" src="Image/p2_large.jpg" alt="tablet" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>UPad Pro black color</h4>
+                                    <p>$499.00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 d-lg-block d-none">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/11_c6c97b67-edac-48bd-8e5c-cf0de5e9e3cb_large.jpg"
+                                            alt="mini speaker" />
+                                        <img id="hoverImg" src="Image/p3_0dd10fdb-44b3-415b-b7c3-91896ecb3ee2_large.jpg"
+                                            alt="y=tablet" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Homepod mini 2022</h4>
+                                    <p>$39.00<span> $60.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-lg-block d-none">
+                            <div class="card">
+                                <div class="overlay position-absolute z-1">
+                                    <ul class="d-flex justify-content-center align-items-center">
+                                        <li><i onclick="addCount()" class="fa-solid fa-bag-shopping"></i></li>
+                                        <li><i class="fa-regular fa-heart"></i></li>
+                                        <li><i class="fa-solid fa-signal"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="card-img">
+                                    <a href="product.html">
+                                        <img id="mainImg" src="Image/p9_large.jpg" alt="tv" />
+                                        <img id="hoverImg" src="Image/p7_6fe3391a-c2d0-4342-bd4c-70b486ce88ae_large.jpg"
+                                            alt="iphone" />
+                                    </a>
+                                </div>
+                                <div class="card-caption">
+                                    <div class="rate">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Home entertainment</h4>
+                                    <p>$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end latest -->
+
+        <!-- start testimonial -->
+        <section class="testimonial p-70">
+            <div class="container">
+                <div class="testimonial__title pages-title mb-40">
+                    <h2>What's clients say about us</h2>
+                </div>
+                <div class="testimonial__info">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6>Great quality!</h6>
+                                    <div class="icon">
+                                        <img src="Image/testimonial-icon.png" alt="testimonial">
+                                    </div>
+                                </div>
+                                <p class="box-body">This is a great design and I hope that we will create a website with
+                                    a good signature. Team90Degree team is reactive and kind. Thanks for the help so
+                                    far.</p>
+                                <div class="box-foot">
+                                    <h5>Luke Olfert</h5>
+                                    <p>/ Web Developer, Canada</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 d-md-block d-none">
+                            <div class="box">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6>Great quality!</h6>
+                                    <div class="icon">
+                                        <img src="Image/testimonial-icon.png" alt="testimonial">
+                                    </div>
+                                </div>
+                                <p class="box-body">This is a great design and I hope that we will create a website with
+                                    a good signature. Team90Degree team is reactive and kind. Thanks for the help so
+                                    far.</p>
+                                <div class="box-foot">
+                                    <h5>Luke Olfert</h5>
+                                    <p>/ Web Developer, Canada</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-lg-block d-none">
+                            <div class="box">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6>Great quality!</h6>
+                                    <div class="icon">
+                                        <img src="Image/testimonial-icon.png" alt="testimonial">
+                                    </div>
+                                </div>
+                                <p class="box-body">This is a great design and I hope that we will create a website with
+                                    a good signature. Team90Degree team is reactive and kind. Thanks for the help so
+                                    far.</p>
+                                <div class="box-foot">
+                                    <h5>Luke Olfert</h5>
+                                    <p>/ Web Developer, Canada</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimonial -->
+
+        <!-- fixed button -->
+        <button id="btnUp" class="btn btn-up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </main>
+
+
+    <!-- start footer -->
+    <footer class="footer pt-70">
+        <div class="container">
+            <div class="footer__info pb-30">
+                <div class="row gy-sm-0 gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Contact us</h5>
+                            <ul>
+                                <li>
+                                    Drou Demo Store
+                                    <br />
+                                    No. 1259 Freedom, New York
+                                    <br />
+                                    United States
+                                </li>
+                                <li>+91-987654321</li>
+                                <li>demo@exampledemo.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Information</h5>
+                            <ul>
+                                <li><a href="#">Product Support</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">License Policy</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Customer Service</h5>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Redeem Voucher</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Policies & Rules</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Download Our App</h5>
+                            <p>
+                                Download our App and get extra 15% Discount on your first
+                                Order..!
+                            </p>
+                            <div class="store d-flex">
+                                <div class="store-img">
+                                    <a href="#"><img src="Image/app-store.jpg" alt="app-store" /></a>
+                                </div>
+                                <div class="store-img">
+                                    <a href="#"><img src="Image/google-play.jpg" alt="google-play" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyRight">
+            <div class="container">
+                <div class="caption d-flex flex-wrap justify-content-between">
+                    <p>Copyright © Team90Degree | Built with Drou by Team90Degree.</p>
+                    <div class="copy-img">
+                        <a href="#"><img src="Image/payment-method.png" alt="payment-method" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- JS -->
+    <script src="Js/jquery-3.7.1.min.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

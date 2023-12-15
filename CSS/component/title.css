@@ -1,0 +1,39 @@
+.title-1 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pages-title h2 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.42em;
+    text-transform: capitalize;
+}
+
+.pages-title p {
+    font-size: 15px;
+    color: var(--third-color);
+    line-height: 1.74;
+}
+
+@media screen and (max-width: 768px) {
+    .title-1 h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .pages-title h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+}

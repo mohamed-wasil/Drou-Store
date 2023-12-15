@@ -1,0 +1,196 @@
+/* start welcome */
+.welcome .welcome__info .card {
+    padding: 32px 37px 36px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0;
+    transition: var(--main-transition);
+}
+
+.welcome .welcome__info .card-icon {
+    font-size: 60px;
+    color: var(--main-color);
+    margin-bottom: 14px;
+}
+
+.welcome .welcome__info .card-caption h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.welcome .welcome__info .card-caption ul {
+    padding-inline-start: 15px;
+}
+
+.welcome .welcome__info .card-caption li {
+    color: var(--third-color);
+    font-size: 15px;
+    list-style: disc;
+    margin: 0 0 13px;
+}
+
+.welcome .welcome__info .card.active {
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.welcome .welcome__info .card:hover {
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+/* end welcome */
+
+/* start team  */
+.team .team__info .box {
+    padding: 0 4px;
+}
+
+.team .team__info .box-img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.team .team__info .box-img .overlay {
+    bottom: 20px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: var(--main-transition);
+}
+
+.team .team__info .box-img:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team .team__info .box-img:hover img {
+    transition: all 1s;
+}
+
+.team .team__info .box-img:hover img {
+    transform: scale(1.1);
+}
+
+.team .team__info .box-img .overlay ul li a {
+    color: #696969;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin: 0 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .team__info .box-img .overlay ul li a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.team .team__info .box-caption {
+    padding: 15px;
+}
+
+.team .team__info .box-caption h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 8px;
+}
+
+.team .team__info .box-caption p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* end team  */
+
+/* start message  */
+.message {
+    background-color: #f7f9fb;
+}
+
+
+.message .right .boxes {
+    padding-inline-start: 30px;
+}
+
+.message .right .box:not(:last-child) {
+    margin-bottom: 55px;
+}
+
+.message .right .box-icon {
+    font-size: 40px;
+    padding-inline-end: 25px;
+    color: var(--main-color);
+}
+
+.message .right .box-caption span {
+    font-size: 16px;
+    line-height: 1.625em;
+    color: var(--third-color);
+}
+
+.message .right .box:first-child .box-caption p {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.message .right .box-caption p a {
+    color: var(--second-color);
+}
+
+.message .right .box:nth-child(2) .box-caption p {
+    font-size: 34px;
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+.message .right .box:nth-child(3) .box-caption p {
+    font-size: 20px;
+    margin-top: 8px;
+    line-height: 30px;
+}
+
+/* end message  */
+
+/* start testimonial */
+.testimonial .testimonial__info .box {
+    padding: 56px 32px 55px;
+    border-radius: 5px;
+    background-color: var(--sec-color);
+}
+
+.testimonial .testimonial__info .box-head h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testimonial .testimonial__info .box-head .icon {
+    width: 34px;
+    height: 28px;
+}
+
+.testimonial .testimonial__info .box-body {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 22px 0 34px;
+}
+
+.testimonial .testimonial__info .Box-foot h5 {
+    Font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.testimonial .testimonial__info .box-foot p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* end testimonial */

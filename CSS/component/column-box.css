@@ -1,0 +1,13 @@
+.left-column .box {
+    background:var(--sec-color);
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.left-column .box h4 {
+    color: #323232;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}

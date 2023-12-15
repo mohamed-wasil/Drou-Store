@@ -1,0 +1,124 @@
+.header-fix {
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(60px);
+    transition: all .8s;
+}
+
+.header .navbar-brand {
+    width: 166px;
+}
+
+.header .navbar-toggler {
+    border: none;
+}
+
+.header .navbar-nav .nav-item {
+    margin: 0 18px;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+    color: var(--main-color);
+}
+
+.header .navbar-nav .nav-item:first-child::after {
+    content: 'NEW';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    background: #D3122A;
+    display: inline-block;
+    width: 45px;
+    height: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 50px;
+    letter-spacing: 0px;
+}
+
+.header .navbar-nav .nav-item:first-child::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #D3122A;
+    top: -1px;
+    transform: rotate(-45deg) translateX(-50%);
+    left: 35%;
+}
+
+.header .icons i {
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    margin-inline-end: 28px;
+    position: relative;
+}
+
+.header .icons a {
+    color: var(--second-color);
+}
+
+.header .icons a .count {
+    display: inline-block;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    right: -15px;
+    bottom: -5px;
+    position: absolute;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .header .navbar-nav .nav-item:first-child::after,
+    .header .navbar-nav .nav-item:first-child::before {
+        display: none;
+    }
+
+    .header .icons i {
+        font-size: 25px;
+        margin-inline-end: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header .navbar-brand {
+        width: 140px;
+    }
+
+    .header .icons i {
+        font-size: 20px;
+        margin-inline-end: 10px;
+    }
+
+    .header .icons a .count {
+        height: 15px;
+        width: 15px;
+        right: -10px;
+        bottom: -5px;
+    }
+}

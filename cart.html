@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drou</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <!-- start header -->
+    <header id="header" class="header bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Image/logo_300x300.png" alt="logo" />
+                    </a>
+                    <button class="navbar-toggler order-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item position-relative">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="electronic.html">Electronics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages.html">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <a href="cart.html">
+                            <i class="fa-solid fa-bag-shopping position-relative">
+                                <span id="soppingCount" class="count">0</span>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <main>
+        <button onclick="delCount()" class="btn btn-1"> delete all </button>
+        <div class="p-5 w-75 mx-auto">
+            <h2 class="fw-bold text-center">cart</h2>
+            <table class="table mt-5  text-center">
+                <thead class="table-dark rounded-2">
+                    <th>ID</th>
+                    <th>Product image</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+
+                <tfoot class="py-3" id="tableFooter">
+
+                </tfoot>
+            </table>
+        </div>
+
+        <!-- fixed button -->
+        <button id="btnUp" class="btn btn-up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </main>
+
+
+
+    <!-- start footer -->
+    <footer class="footer pt-70">
+        <div class="container">
+            <div class="footer__info pb-30">
+                <div class="row gy-sm-0 gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Contact us</h5>
+                            <ul>
+                                <li>
+                                    Drou Demo Store
+                                    <br />
+                                    No. 1259 Freedom, New York
+                                    <br />
+                                    United States
+                                </li>
+                                <li>+91-987654321</li>
+                                <li>demo@exampledemo.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Information</h5>
+                            <ul>
+                                <li><a href="#">Product Support</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">License Policy</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Customer Service</h5>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Redeem Voucher</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Policies & Rules</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-box">
+                            <h5 class="footer-title">Download Our App</h5>
+                            <p>
+                                Download our App and get extra 15% Discount on your first
+                                Order..!
+                            </p>
+                            <div class="store d-flex">
+                                <div class="store-img">
+                                    <a href="#"><img src="Image/app-store.jpg" alt="app-store" /></a>
+                                </div>
+                                <div class="store-img">
+                                    <a href="#"><img src="Image/google-play.jpg" alt="google-play" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyRight">
+            <div class="container">
+                <div class="caption d-flex flex-wrap justify-content-between">
+                    <p>Copyright © Team90Degree | Built with Drou by Team90Degree.</p>
+                    <div class="copy-img">
+                        <a href="#"><img src="Image/payment-method.png" alt="payment-method" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- JS -->
+    <script src="Js/jquery-3.7.1.min.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

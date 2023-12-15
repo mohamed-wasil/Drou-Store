@@ -1,0 +1,276 @@
+/* start xl  */
+@media screen and (max-width: 1200px) {
+
+    .product .product__info .cart .btn {
+        padding: 21px 72px;
+    }
+}
+
+/* end xl  */
+
+/* start lg */
+@media screen and (max-width: 992px) {
+
+    /* start news  */
+    .news .news__left {
+        padding-top: 30px;
+    }
+
+    .news {
+        padding-top: 40px;
+    }
+
+    /* end news  */
+
+    .product .product__info .cart .btn {
+        padding: 18px 65px;
+    }
+}
+
+/* end xl */
+
+/* start md  */
+@media screen and (max-width: 768px) {
+
+    /* start home  */
+
+    .home .slide,
+    .home .slide2 {
+        height: 400px;
+    }
+
+    .home .home-caption h4 {
+        font-size: 22px;
+        margin: 0 0 10px;
+    }
+
+    .home .home-caption h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .home .home-caption p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 30px;
+        margin: 5px 0 15px;
+    }
+
+    .home .home-caption .btn-1 {
+        padding: 10px 32px 12px;
+    }
+
+    /* end home  */
+
+    /* start trend */
+    .trend .boxes .box-layer {
+        position: relative !important;
+        padding-top: 15px;
+    }
+
+    .trend .boxes .box-layer h2 {
+        font-size: 20px;
+        margin: 5px 0 4px;
+    }
+
+    .trend .boxes .box-layer .btn-1 {
+        padding: 4px 15px 7px;
+    }
+
+    /* end trend */
+
+    /* start discount */
+    .discount .discount__info h4,
+    .discount .discount__info h6 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    /* end discount */
+
+    /* start popular */
+    .popular .popular__title ul li {
+        padding-inline-start: 20px;
+    }
+
+    .popular .popular__title ul li a {
+        font-size: 14px;
+    }
+
+    /* end popular */
+
+    /* start event  */
+    .event .event__info .card-caption h3 {
+        margin: 5px 0 0;
+    }
+
+    /* end event  */
+
+    /* start baner  */
+    .banner .banner__info .banner-caption {
+        position: relative;
+        padding-top: 30px;
+    }
+
+    .banner .banner__info .banner-caption h3 {
+        margin: 5px 0 4px;
+    }
+
+    .banner .banner__info .banner-caption h3,
+    .banner .banner__info .banner-caption h4 {
+        font-size: 20px;
+    }
+
+    .banner .banner__info .banner-caption h4 {
+        margin-bottom: 3px;
+    }
+
+    .banner .banner__info .banner-caption .btn-1 {
+        padding: 4px 15px 7px;
+    }
+
+    /* end baner  */
+
+    /* start feature */
+    .feature .box {
+        padding: 35px 20px 40px;
+    }
+
+    /* end feature */
+
+    /* start welcome */
+    .welcome .welcome__title h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .welcome .welcome__info .card {
+        padding: 32px 15px 20px;
+    }
+
+    .welcome .welcome__info .card-caption h4 {
+        font-size: 20px;
+    }
+
+    /* end welcome */
+
+    /* start team  */
+    .team .team__info .box-caption h4 {
+        margin: 0 0 5px;
+    }
+
+    /* end team  */
+
+    /* start message  */
+    .message .ask-box {
+        padding: 53px 20px 56px;
+    }
+
+    .message .ask-box h3 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .message .right .boxes {
+        padding-inline-start: 0;
+        margin-top: 35px;
+    }
+
+    .message .right .box:not(:last-child) {
+        margin-bottom: 35px;
+    }
+
+    .message .right .box-icon {
+        font-size: 35px;
+    }
+
+    .message .right .box:first-child .box-caption p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .message .right .box:nth-child(2) .box-caption p {
+        font-size: 25px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+
+    .message .right .box:nth-child(3) .box-caption p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* end message  */
+
+    /* start testimonial */
+    .testimonial .testimonial__info .box {
+        padding: 46px 30px 45px;
+    }
+
+    .testimonial .testimonial__info .box-body {
+        margin: 22px 0 23px;
+    }
+
+    /* end testimonial */
+
+    /* start ask */
+    .ask .ask-box {
+        padding: 0;
+    }
+
+    .ask .ask-box h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* end ask */
+
+}
+
+/* end md  */
+
+/* start sm  */
+@media screen and (max-width: 576px) {
+
+    /* start home */
+    .home .slide,
+    .home .slide2 {
+        text-align: center;
+    }
+
+    /* end home */
+
+    /* star team */
+    .team .team__info .box {
+        padding: 0;
+    }
+
+    /* end team */
+}
+
+/* end sm  */
+
+@media screen and (max-width: 480px) {
+    .trend .boxes .box-layer h2 {
+        margin: 5px 0;
+    }
+
+    .trend {
+        padding-bottom: 0;
+    }
+
+    .popular .popular__title ul li {
+        padding-inline-start: 0;
+        padding-inline-end: 15px;
+    }
+
+    .latest,
+    .news,
+    .news__left {
+        padding-bottom: 0;
+    }
+
+    .welcome {
+        padding-bottom: 20px;
+    }
+}

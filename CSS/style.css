@@ -1,0 +1,37 @@
+/* start vendor css  */
+@import url(vendor/all.min.css);
+@import url(vendor/bootstrap.min.css);
+@import url(vendor/splide.min.css);
+/* end vendor css  */
+
+/* start base css  */
+@import url(base/base.css);
+/* end base css  */
+
+/* start component  */
+@import url(component/button.css);
+@import url(component/title.css);
+@import url(component/products.css);
+@import url(component/banners.css);
+@import url(component/arrow-list.css);
+@import url(component/column-box.css);
+@import url(component/ask-message.css);
+/* end component  */
+
+/* start layout  */
+@import url(layout/header.css);
+@import url(layout/footer.css);
+/* end layout  */
+
+/* start pages css  */
+@import url(pages/index.css);
+@import url(pages/electronics.css);
+@import url(pages/blog.css);
+@import url(pages/pages.css);
+@import url(pages/contact.css);
+@import url(pages/product.css);
+/* end pages css  */
+
+/* start responsive */
+@import url(responsive/responsive.css);
+/* end responsive */

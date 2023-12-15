@@ -1,0 +1,120 @@
+@import url(font.css);
+
+/* variable start  */
+:root {
+    --main-color: #e52e06;
+    --second-color: #333;
+    --third-color: #444;
+    --sec-color: #f8f8f8;
+    --star-color: #ffc400;
+    --main-transition: all .3s;
+    --second-transition: all .8s;
+}
+
+html::-webkit-scrollbar-track {
+    background: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+/* variable end  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: var(--main-transition);
+}
+
+body {
+    font-family: CerebriSans-regular;
+    color: var(--second-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: CerebriSans-bold;
+
+}
+
+.scl-img {
+    transition: var(--second-transition);
+}
+
+.scl-img:hover {
+    transform: scale(1.1);
+}
+
+.footer-clr {
+    background: var(--sec-color);
+
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+
+.p-70 {
+    padding: 70px 0;
+}
+
+.pt-55 {
+    padding-top: 55px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}

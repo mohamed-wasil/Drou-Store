@@ -1,0 +1,128 @@
+.news .news__right .card {
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 0;
+    position: relative;
+}
+
+.news .news__right .card::after {
+    position: absolute;
+    content: 'IPHONE';
+    left: 10px;
+    top: 10px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 5px;
+    padding: 6px 11px 6px;
+}
+
+.news .news__right .card .card-img {
+    border-radius: 5px;
+}
+
+.news .news__right .card .card-caption {
+    padding: 0px 25px 30px;
+}
+
+.news .news__right .card .card-caption a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    transition: var(--main-transition);
+}
+
+.news .news__right .card .card-caption a i {
+    color: var(--main-color);
+    margin-inline-start: 5px;
+}
+
+.news .news__right .card .card-caption a:hover {
+    color: var(--main-color);
+}
+
+.news .news__right .arrow-list {
+    bottom: -100px;
+}
+
+.news .news__left {
+    padding-top: 0;
+}
+
+.news .news__left .box {
+    padding: 38px 20px 40px;
+}
+
+.news .news__left .box h4 {
+    margin-bottom: 22px;
+}
+
+.news .news__left .search-box input {
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    color: var(--third-color);
+    border-radius: 26px;
+    padding: 3px 50px 3px 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.news .news__left .box-1 .post:not(:last-child) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.news .news__left .box-1 .post .post-img {
+    max-width: 100px;
+}
+
+.news .news__left .box-1 .post .post-caption {
+    padding-inline-start: 17px;
+}
+
+.news .news__left .box-1 .post .post-caption h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.44;
+    transition: var(--main-transition);
+}
+
+.news .news__left .box-1 .post .post-caption h5:hover {
+    color: var(--main-color);
+}
+
+.news .news__left .box-1 .post .post-caption span {
+    color:var(--third-color);
+    font-size: 14px;
+    margin-top: 6px;
+    display: block;
+}
+
+.news .news__left .box-2 .category li {
+    margin: 0 7px 10px 0;
+    padding: 0;
+    border: 0;
+    width: auto;
+
+}
+
+.news .news__left .box-2 .category li a {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 26px;
+    color: #666;
+    padding: 4px 15px 5px;
+}
+
+.news .news__left .box-2 .category li a:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}

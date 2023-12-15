@@ -1,0 +1,30 @@
+.arrow-list {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-list li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 100%;
+    margin: 0 2px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-list li:nth-child(2) a {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+@media screen and (max-width: 500px) {
+    .arrow-list {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

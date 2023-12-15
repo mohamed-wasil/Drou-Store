@@ -1,0 +1,29 @@
+.banners {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.banners ul {
+    display: flex;
+    padding: 15px 15px 0;
+}
+
+.banners ul li a {
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-right: 15px;
+    margin-right: 15px;
+    color: #666;
+}
+
+.banners ul li:last-child a {
+    color: var(--main-color);
+}
+
+.banners ul li:first-child::after {
+    position: absolute;
+    content: '/';
+    right: 10px;
+    top: 0;
+    color: var(--main-color);
+}
